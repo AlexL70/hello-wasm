@@ -1,0 +1,6 @@
+# WASM binary files
+*.wasm
+# Script you get from tinygo installation
+wasm_exec.js
+# node modules
+node_modules/
