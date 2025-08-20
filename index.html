@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <title>Hello World - Go</title>
-</head>
-
-<body>
-    <!-- 
-    The wasm_exec.js must come before our Javascript (index.js), 
-    as it defines some global objects 
-    -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
     <script src="./wasm_exec.js"></script>
     <script type="module" src="./index.js"></script>
-</body>
-
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
