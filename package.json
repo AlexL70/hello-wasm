@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "http-server": "14.1.1"
+    "@tailwindcss/vite": "^4.1.12",
+    "http-server": "14.1.1",
+    "tailwindcss": "^4.1.12"
   },
   "devDependencies": {
     "vite": "7.1.2"

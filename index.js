@@ -43,6 +43,6 @@ const runWasmAdd = async () => {
     const addResult = wasmModule.instance.exports.add(24, 24);
 
     // Set the result onto the body
-    document.body.textContent = `Hello World! addResult: ${addResult}`;
+    //document.body.textContent = `Hello World! addResult: ${addResult}`;
 };
 runWasmAdd();
