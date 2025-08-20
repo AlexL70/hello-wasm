@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Vite App with Golang WASM</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <div id="app"></div>
+    <div>
+        <a href="https://vite.dev" target="_blank" id="vite-logo"></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" id="js-logo">
+            <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
+        </a>
+        <h1 class="text-3xl font-bold underline">Hello Vite and Golang WASM!</h1>
+        <div class="card">
+            <button id="counter" type="button"></button>
+        </div>
+        <p class="read-the-docs">
+            Click on the Vite logo to learn more
+        </p>
+    </div>
+    <div id="result"></div>
     <script src="./wasm_exec.js"></script>
     <script type="module" src="./index.js"></script>
     <script type="module" src="/src/main.js"></script>
